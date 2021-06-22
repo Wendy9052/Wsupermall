@@ -1,4 +1,4 @@
-import vue from "vue"
+import Vue from "vue"
 import VueRouter from "vue-router"
 
 const Home = () => import("../views/home/Home")
@@ -12,7 +12,6 @@ Vue.use(VueRouter)
 // 2.创建router
 // 2.创建路由对象 并导出
 const routes = [
-  routes [
     {
       path: "/",
       redirect: "/home"
@@ -33,7 +32,6 @@ const routes = [
       path: "/profile",
       component: Profile
     }
-  ]
 ]
 
 
